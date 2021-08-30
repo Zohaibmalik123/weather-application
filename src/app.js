@@ -8,7 +8,7 @@ console.log(__dirname)
 
  
 const app=express()
-const post = process.env.PORT || 3000
+const port = process.env.PORT || 3000
 
 
 // define path for express
@@ -112,5 +112,5 @@ app.get('*' , (req , res)=>{
  
 
  app.listen(port , ()=>{
-     console.log('Server is up on port' + port)
+     console.log(`Server is up on port ${port}`)
  })
