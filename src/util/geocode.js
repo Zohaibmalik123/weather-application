@@ -12,8 +12,8 @@ request({url , json:true} , (error , { body }) =>{
     
     else{ 
         callback(undefined,{
-           latitude : body.features[0].center.latitude,
-           longitude: body.features[0].center.longitude,
+           latitude : body.features[0].center[1],
+           longitude: body.features[0].center[0],
            location : body.features[0].place_name
         })
 }
