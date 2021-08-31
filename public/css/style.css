@@ -16,6 +16,7 @@ body{
 footer{
     color: #888888;
     border-top: 1px solid #eeeeee;
+    padding-top: 100px;
     margin-top: 16px;
     padding: 16px 0;
 }
