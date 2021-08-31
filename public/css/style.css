@@ -7,7 +7,7 @@ body{
 
     display: flex;
     flex-direction: column;
-    min-width: 100vh;
+    min-height: 100vh;
 }
 .main-content{
     flex-grow: 1;
@@ -16,7 +16,6 @@ body{
 footer{
     color: #888888;
     border-top: 1px solid #eeeeee;
-    padding-top: 100px;
     margin-top: 16px;
     padding: 16px 0;
 }

@@ -36,7 +36,7 @@ app.get('/' , (req , res)=>{
 app.get('/about' , (req , res)=>{
     res.render('About' , {
         title:'About page',
-        paragraph:'Lorem ipsum dolor amet consectetur adipisicing elit. Doloremque, architecto.',
+        paragraph:'This site was created by zohaib. it uses data from mapbox and weatherstack',
         name:'Muhammad Zohaib'
 
     } )
@@ -45,7 +45,6 @@ app.get('/about' , (req , res)=>{
 app.get('/help' , (req , res)=>{
     res.render('help' , {
         title:'Help page',
-        paragraph:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, architecto.',
         helptext:'this is some helpful text',
         name:'Muhammad Zohaib'
 
